@@ -1,0 +1,58 @@
+.navbar-brand{
+    text-decoration: underline rgb(207, 191, 7);
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+h1{
+    color: rgb(255, 234, 0);
+    padding-bottom: 2%;
+}
+
+h2{
+    color: black;
+    font-size: 150%;
+    text-align: center;
+}
+
+p{
+    color: black;
+    font-size: 100%;
+}
+
+section{
+    padding-bottom: 5%;
+    margin-left: 16%;
+    display:inline-block;
+}
+
+a{
+    color: orange;
+    
+}
+
+a:hover{
+    color: rgb(255, 136, 0);
+    transition: 1s;
+    font-size: 45px;
+}
+
+@media (max-width: 768px){
+    h2{
+        font-size: 110%;
+    }
+    p{
+        font-size: 80%
+    }
+}
+@media (max-width: 1024px){
+    h2{
+        font-size: 180%;
+    }
+    p{
+        font-size: 120%
+    }
+}
