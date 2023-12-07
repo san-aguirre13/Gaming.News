@@ -16,6 +16,7 @@ h2{
     color: black;
     font-size: 150%;
     text-align: center;
+    display: flex;
 }
 
 p{
@@ -26,18 +27,17 @@ p{
 section{
     padding-bottom: 5%;
     margin-left: 16%;
-    display:inline-block;
+    display:flex;
 }
 
 a{
     color: orange;
-    
 }
 
 a:hover{
     color: rgb(255, 136, 0);
     transition: 1s;
-    font-size: 45px;
+    font-size: 40px;
 }
 
 @media (max-width: 768px){
