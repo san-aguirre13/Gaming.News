@@ -5,7 +5,10 @@
 body{
     background-color: rgb(255, 255, 255);
 }
-
+footer{
+    background-color: black;
+    padding: 0;
+}
 
 h1{
     color: rgb(255, 234, 0);
@@ -15,8 +18,7 @@ h1{
 h2{
     color: black;
     font-size: 150%;
-    text-align: center;
-    display: flex;
+    
 }
 
 p{
@@ -34,10 +36,13 @@ a{
     color: orange;
 }
 
-a:hover{
-    color: rgb(255, 136, 0);
-    transition: 1s;
-    font-size: 40px;
+li{
+    list-style-type: none;
+}
+
+
+.componentes-pc{
+    margin-left: 20px;
 }
 
 @media (max-width: 768px){
