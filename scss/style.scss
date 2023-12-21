@@ -1,6 +1,6 @@
-$color-nombre: rgb(231, 170, 0);
-$color-titulos:  rgb(167, 100, 0);
+@import "utilities/variables";
 
+@import "mixin/mixin";
 
 
 header{
@@ -20,6 +20,7 @@ header{
 
 main{
     h2{
+        @include h2-main;
         color: $color-titulos;
         }
     ul{
@@ -27,6 +28,7 @@ main{
         list-style-type: none; 
       }
     }
+
 }
 
 footer{
@@ -41,8 +43,8 @@ footer{
     }
     
     p{
+        @include frase-p;
         color: white;
-        text-align: center;
     }
     a{
         color: $color-nombre;
