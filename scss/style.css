@@ -1,0 +1,38 @@
+header nav .navbar-brand {
+  color: rgb(231, 170, 0);
+}
+header h1 {
+  text-align: center;
+}
+header h1 a {
+  text-decoration: none;
+  color: rgb(231, 170, 0);
+}
+
+main h2 {
+  color: rgb(167, 100, 0);
+}
+main ul li {
+  list-style-type: none;
+}
+
+footer {
+  background-color: black;
+  padding-bottom: 10%;
+}
+footer img {
+  width: 20%;
+  margin-left: 40%;
+}
+footer section {
+  display: inline-block;
+}
+footer p {
+  color: white;
+  text-align: center;
+}
+footer a {
+  color: rgb(231, 170, 0);
+  text-decoration: none;
+  margin-left: 49%;
+}/*# sourceMappingURL=style.css.map */

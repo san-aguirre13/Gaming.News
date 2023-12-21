@@ -1,0 +1,52 @@
+$color-nombre: rgb(231, 170, 0);
+$color-titulos:  rgb(167, 100, 0);
+
+
+
+header{
+    nav{
+        .navbar-brand{
+        color: $color-nombre;    
+        }
+    }
+    h1{
+        text-align: center;
+        a{
+            text-decoration: none;
+            color: $color-nombre; 
+    }
+        }
+}
+
+main{
+    h2{
+        color: $color-titulos;
+        }
+    ul{
+      li{
+        list-style-type: none; 
+      }
+    }
+}
+
+footer{
+    background-color: black;
+    padding-bottom: 10%;
+    img{
+        width: 20%;
+        margin-left: 40%;
+    }
+    section{
+        display: inline-block;
+    }
+    
+    p{
+        color: white;
+        text-align: center;
+    }
+    a{
+        color: $color-nombre;
+        text-decoration: none;
+        margin-left: 49%;
+    }
+}
